@@ -1,0 +1,132 @@
+<style>
+  * {
+  box-sizing: border-box;
+  margin: 5px;
+  padding: 10px;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.container{
+  background-color: #C0C0C0;
+  width: 100%;
+}
+
+#collapsable-nav{
+  text-align: center;
+  height: 5%;
+  border: 3px solid black;
+
+}
+
+#collapsable-nav hr{
+  width: 100%;
+  border: 1px solid black;
+  text-decoration-color: black;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  text-align: left;
+}
+
+#collapsable-nav .hidden-xs {
+  margin-top: 0;
+  float: right;
+}
+
+/*large size */
+@media (min-width: 1200px){}
+
+/*medium size */
+@media (min-width: 992px) and (max-width: 1999px){
+  .col-md-4 .col-sm-6 .col-xs-12 {  
+    float: left;
+    border: 1px solid black;
+  }
+  .col-md-4 .col-sm-6 .col-xs-12 .selection1{
+    width: 304.656px;
+
+  }
+  /*.hidden-xs .hidden-sm  .hidden-md .hidden-lg{
+    font-size: 0px;
+
+  }*/
+}
+/*small size */
+@media (min-width: 768px) and (max-width: 991px){
+  .col-md-4 .col-sm-6 .col-xs-12 {  
+    float: left;
+    border: 1px solid black;
+  }
+}
+
+/*extra small size */
+@media (max-width: 767px) {
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+}
+
+/*Body*/
+.row {
+  padding: 5px;
+  margin: 10px;
+  width: 100%;
+  height: 100%; 
+  font-family: Helvetica, sans-serif;
+  color: black;
+}
+p {
+  background-color: #C0C0C0;
+  margin-top: 1em;
+  text-align: center;
+}
+/*
+section1 {
+  background-color: #C0C0C0;
+  position: absolute;
+  font-weight: bold;
+  float: middle;
+  width: 93.33%;
+  height: 30px;
+  text-align: center;
+  }
+section2 {
+  background-color: #C0C0C0;
+  position: absolute;
+  font-weight: bold;
+  float: middle;
+  width: 93.33%;
+  height: 30px;
+  text-align: center;
+}
+section3 {
+  background-color: #C0C0C0;
+  position: absolute;
+  font-weight: bold;
+  float: middle;
+  width: 94%;
+  height: 30px;
+  text-align: center;
+}
+*/
+</style>
+
